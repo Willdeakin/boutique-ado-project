@@ -176,3 +176,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
+print(f"XX-{STRIPE_WH_SECRET}-XX")
+print(f"XX-{STRIPE_SECRET_KEY}-XX")
+print(f"XX-{STRIPE_PUBLIC_KEY}-XX")
